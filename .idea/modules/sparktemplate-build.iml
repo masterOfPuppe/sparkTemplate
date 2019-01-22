@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="sparktemplate-build [file:/C:/Users/gtwpdw/IdeaProjects/sparkTemplate/]" external.linked.project.path="$MODULE_DIR$/../../project" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" sbt.imports="_root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.wartremover.WartRemover, _root_.wartremover.WartRemover.autoImport._, sbt._, Keys._, dsl._" sbt.resolvers="http://10.1.50.21:8081/repository/maven-public/|maven|my-maven-proxy-repo, C:\Users\gtwpdw\.ivy2\cache|ivy|Local cache" type="SBT_MODULE" version="4">
+<module external.linked.project.id="sparktemplate-build" external.linked.project.path="$MODULE_DIR$/../../project" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" sbt.imports="_root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.wartremover.WartRemover, _root_.wartremover.WartRemover.autoImport._, sbt._, Keys._, dsl._" sbt.resolvers="https://repo1.maven.org/maven2/|maven|public, file:/home/pippo/.sbt/preloaded|maven|local-preloaded, /home/pippo/.ivy2/cache|ivy|Local cache" type="SBT_MODULE" version="4">
   <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../../project/target/idea-classes" />
     <output-test url="file://$MODULE_DIR$/../../project/target/idea-test-classes" />
@@ -74,10 +74,5 @@
         <SOURCES />
       </library>
     </orderEntry>
-  </component>
-  <component name="SbtModule">
-    <option name="buildForId" value="sparktemplate" />
-    <option name="buildForURI" value="file:/$MODULE_DIR$/../../" />
-    <option name="imports" value="_root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.wartremover.WartRemover, _root_.wartremover.WartRemover.autoImport._, sbt._, Keys._, dsl._" />
   </component>
 </module>

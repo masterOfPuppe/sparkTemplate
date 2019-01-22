@@ -1,12 +1,18 @@
 package common
 
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
 object SparkHolder {
 
   private var sparkSession : Option[SparkSession] = None
 
   def createSparkSessionIstance(conf: SparkConf) : Unit ={
     if(sparkSession.isEmpty)
-      sparkSession = Some(SparkSession.builder().config(conf).getOrCreate())
+      sparkSession = Some(SparkSession
+        .builder()
+        .config(conf)
+        .getOrCreate())
   }
 
   def getSparkSessionIstance : SparkSession =
@@ -16,7 +22,7 @@ object SparkHolder {
     }
 
   def stopCurrentSparkSession : Unit = {
-    sparkSession.foreach(_.close)
+    sparkSession.foreach(x => x.close)
     sparkSession = None
   }
 
