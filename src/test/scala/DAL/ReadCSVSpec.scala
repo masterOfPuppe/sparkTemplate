@@ -30,7 +30,7 @@ class ReadCSVSpec extends HdfsMinicluster with MustMatchers {
     "rightly work" in {
       val dataFrame = ReadCSV.getDataframe(dataPathHdfs)
 
-      dataFrame.count() must be(3)
+      dataFrame.count() must be(2)
     }
   }
 
